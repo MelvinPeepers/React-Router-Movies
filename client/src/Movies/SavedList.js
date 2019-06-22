@@ -14,7 +14,7 @@ export default class SavedList extends Component {
           <span className='saved-movie'>{movie.title}</span>
         ))}
         <div className='home-button'>
-          {/* added link to home similar to Avenger app */}
+          {/* added Link to home similar to Avenger app to take you back to the 'home' screen */}
           <Link to='/'>Home</Link>
         </div>
       </div>
