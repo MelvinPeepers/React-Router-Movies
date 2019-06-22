@@ -36,6 +36,7 @@ function MovieDetails({ movie }) {
   const { title, director, metascore, stars } = movie;
   return (
     <div className='movie-card'>
+      {/* I found the instructions confusing here, I had to really search around to find where they mean "Make it so that the card in MovieList". So I did the whole card */}
       <Link to={`/movies/${movie.id}`}>
         <h2>{title}</h2>
 
